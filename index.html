@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center">
+      <h1>Sound Recognition</h1>
+      <p>Note - play sounds like barking, meowing, mooing, etc.</p>
+    </div>
+    <div class="pink">
+      <center>
+         <button class="btn btn-warning" onclick="start()">S T A R T</button>
+          <h3>I Can Hear -</h3><span id="sound_accuracy"></span>
+            <br>
+              <img id="ear" class="ear" src="ear.png">
+             
+      </center>
+    </div>
+
+    <div class="footer">
+      Made by Divik Jain 
+    </div>
+<script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+.header_div
+{
+    background-color: lightsteelblue;
+    width: 100%;
+}
+.pink
+{
+    background-color: rgba(221, 221, 221, 0.829);
+    padding-bottom: 190px;
+}
+.ear
+{
+    width: 300px;
+    height: 300px;
+}
+.footer
+{
+   width: 100%;
+   background-color: white;
+   text-align: center;
+   position: fixed;
+   font-size: 20px;
+   color: black;
+   
+}
